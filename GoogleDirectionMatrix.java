@@ -17,7 +17,7 @@ public class GoogeDirectionMatrix {
 	
 	private static String url;
 	private String prefixUrl=
-			"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&key=AIzaSyB4RKN0oWjDvqW5HzG6KwXyfPwVMhcXdv4&language=en";
+			"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&key=your_api_key&language=en";
 	private String origin="&origins=";
 	private String destination="&destinations=";
 	
