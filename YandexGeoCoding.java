@@ -18,7 +18,7 @@ public class YandexGeocoding {
 	private String url;
 	private String address;
 	private String prefixUrl=
-			"https://geocode-maps.yandex.ru/1.x/?apikey=f0e363b2-b0e0-45f2-9655-af9fab6ec524&"
+			"https://geocode-maps.yandex.ru/1.x/?apikey=your_api_key&"
 			+ "format=json&rspn=1&ll=49.108795,55.796289&spn=5.0,5.0&lang=en-US&geocode=";
 	
 	public YandexGeocoding(String s){
